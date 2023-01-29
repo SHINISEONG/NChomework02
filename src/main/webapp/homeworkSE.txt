@@ -1,0 +1,33 @@
+이름 : userName > user_name VARCHAR2(10) NOT NULL
+	=txt
+성별 : sex > sex VARCHAR2(5) NOT NULL
+	= male or female
+생년월일 : birthDay > birth_day DATE
+	- 년 : birthYear 
+		= txt(need Exception catch)
+	- 월 : birthMonth 
+		= 1~12
+	- 일 : birthDate  
+		= 1~31
+
+직업 :	jobs > jobs VARCHAR2(10)
+	= 미선택 : none
+	= 자영업 : selfEmployed
+	= 전문직 : profession
+	= 서비스직 : service
+	= 사무직 : office
+	= 학생 : student
+	= 무직 : noJobs
+
+휴대폰 : cellNum > cell_num VARCHAR2(10) NOT NULL
+	- 앞 : cellCountryCode
+		= txt(need Exception catch)
+	- 중간 : cellMidNum
+		= txt(need Exception catch)
+	- 뒤 : cellLastNum
+		= txt(need Exception catch)
+
+주소 : addr > addr VARCHAR2(20)
+	=txt
+
+
